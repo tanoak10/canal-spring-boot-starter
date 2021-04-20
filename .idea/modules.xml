@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/canal-test/canal-test.iml" filepath="$PROJECT_DIR$/canal-test/canal-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/starter-canal/starter-canal.iml" filepath="$PROJECT_DIR$/starter-canal/starter-canal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canal-auto-spring-boot-starter/canal-auto-spring-boot-starter.iml" filepath="$PROJECT_DIR$/canal-auto-spring-boot-starter/canal-auto-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canal-auto-spring-boot-starter-parent.iml" filepath="$PROJECT_DIR$/canal-auto-spring-boot-starter-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canal-test-spring-boot-starter/canal-test-spring-boot-starter.iml" filepath="$PROJECT_DIR$/canal-test-spring-boot-starter/canal-test-spring-boot-starter.iml" />
     </modules>
   </component>
 </project>

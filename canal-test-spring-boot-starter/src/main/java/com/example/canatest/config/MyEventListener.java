@@ -31,4 +31,12 @@ public class MyEventListener {
         System.err.println("DeleteListenPoint");
         rowData.getAfterColumnsList().forEach((c) -> System.err.println("By--Annotation: " + c.getName() + " ::   " + c.getValue()));
     }
+
+    @ListenPoint(schema = "westlake-smart-center", table = {"temp_test"}, eventType = {CanalEntry.EventType.INSERT,CanalEntry.EventType.UPDATE})
+    public void insert(CanalEntry.EventType eventType, CanalEntry.RowData rowData) {
+        System.err.println("新增数据");
+        rowData.getBeforeColumnsList().forEach((c) -> System.out.println("更改前 数据: " + c.getName() + " :: " + c.getValue()));
+        rowData.getAfterColumnsList().forEach((c) -> System.out.println("更改后数 据: " + c.getName() + " :: " + c.getValue()));
+    }
+
 }

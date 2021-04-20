@@ -6,7 +6,7 @@
 
     <groupId>io.github.tanoak10</groupId>
     <artifactId>canal-auto-spring-boot-starter-parent</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 
     <name>canal-auto-spring-boot-starter-parent</name>
     <description>canal-starter for convinience</description>
@@ -23,6 +23,7 @@
         <projectUrl>https://github.com/tanoak10/spring-boot-starter-canal.git</projectUrl>
         <serverId>ossrh</serverId>
         <spring-boot.version>2.4.4</spring-boot.version>
+        <canal.version>1.1.5</canal.version>
     </properties>
 
     <modules>
@@ -42,22 +43,20 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>${fastjson.version}</version>
-            </dependency>
             <dependency>
                 <groupId>com.alibaba.otter</groupId>
                 <artifactId>canal.client</artifactId>
-                <version>1.1.4</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>fastjson</artifactId>
-                        <groupId>com.alibaba</groupId>
-                    </exclusion>
-                </exclusions>
+                <version>1.1.5</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.otter</groupId>
+                <artifactId>canal.protocol</artifactId>
+                <version>${canal.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.otter</groupId>
+                <artifactId>canal.common</artifactId>
+                <version>${canal.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

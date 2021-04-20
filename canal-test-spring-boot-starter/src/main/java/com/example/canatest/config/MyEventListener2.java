@@ -1,7 +1,7 @@
 package com.example.canatest.config;
 
 import com.alibaba.otter.canal.protocol.CanalEntry;
-import com.xpand.starter.canal.event.CanalEventListener;
+import io.github.tanoak10.starter.canal.event.CanalEventListener;
 import org.springframework.stereotype.Component;
 
 /**

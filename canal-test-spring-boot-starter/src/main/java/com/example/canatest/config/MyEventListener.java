@@ -1,7 +1,7 @@
 package com.example.canatest.config;
 
 import com.alibaba.otter.canal.protocol.CanalEntry;
-import com.xpand.starter.canal.annotation.*;
+import io.github.tanoak10.starter.canal.annotation.*;
 
 /**
  * @author chen.qian

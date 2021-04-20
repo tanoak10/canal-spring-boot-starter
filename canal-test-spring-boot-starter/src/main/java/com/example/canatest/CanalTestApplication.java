@@ -1,6 +1,6 @@
 package com.example.canatest;
 
-import com.xpand.starter.canal.annotation.EnableCanalClient;
+import io.github.tanoak10.starter.canal.annotation.EnableCanalClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

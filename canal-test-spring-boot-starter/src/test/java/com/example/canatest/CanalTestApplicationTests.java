@@ -1,6 +1,6 @@
 package com.example.canatest;
 
-import com.xpand.starter.canal.config.CanalClientConfiguration;
+import io.github.tanoak10.starter.canal.config.CanalClientConfiguration;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

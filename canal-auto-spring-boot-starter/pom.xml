@@ -6,12 +6,12 @@
     <parent>
         <artifactId>canal-auto-spring-boot-starter-parent</artifactId>
         <groupId>io.github.tanoak10</groupId>
-        <version>1.1</version>
+        <version>1.2</version>
     </parent>
 
     <packaging>jar</packaging>
     <artifactId>canal-auto-spring-boot-starter</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <name>canal-auto-spring-boot-starter</name>
 
     <properties>

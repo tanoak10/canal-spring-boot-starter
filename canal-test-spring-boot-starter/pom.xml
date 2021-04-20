@@ -6,11 +6,11 @@
 	<parent>
 		<artifactId>canal-auto-spring-boot-starter-parent</artifactId>
 		<groupId>io.github.tanoak10</groupId>
-		<version>1.1</version>
+		<version>1.2</version>
 	</parent>
 
 	<artifactId>canal-test-spring-boot-starter</artifactId>
-	<version>1.1</version>
+	<version>1.2</version>
 	<packaging>jar</packaging>
 
 	<name>canal-test-spring-boot-starter</name>
@@ -29,7 +29,7 @@
 		<dependency>
 			<groupId>io.github.tanoak10</groupId>
 			<artifactId>canal-auto-spring-boot-starter</artifactId>
-			<version>1.1</version>
+			<version>1.2</version>
 		</dependency>
 
 		<dependency>

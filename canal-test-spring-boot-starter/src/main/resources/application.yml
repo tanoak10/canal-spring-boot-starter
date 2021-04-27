@@ -2,7 +2,7 @@ canal:
   client:
     instances:
       example:
-        host: 127.0.0.1
+        host: 172.16.7.158
         port: 11111
         batchSize: 1000
         clusterEnabled: false

@@ -4,7 +4,7 @@ package io.github.tanoak10.starter.canal.client;
  * CanalClient interface
  *
  * @author chen.qian
- * @date 2018/3/16
+ * @since 2018/3/16
  */
 public interface CanalClient {
 

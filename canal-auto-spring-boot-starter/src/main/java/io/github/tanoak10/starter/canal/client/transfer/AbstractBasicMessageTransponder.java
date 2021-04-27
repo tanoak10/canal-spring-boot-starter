@@ -19,7 +19,7 @@ import java.util.function.Predicate;
 
 /**
  * @author chen.qian
- * @date 2018/4/2
+ * @since 2018/4/2
  */
 public abstract class AbstractBasicMessageTransponder extends AbstractMessageTransponder {
 

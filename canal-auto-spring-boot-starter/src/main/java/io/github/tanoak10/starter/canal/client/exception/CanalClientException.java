@@ -2,7 +2,7 @@ package io.github.tanoak10.starter.canal.client.exception;
 
 /**
  * @author chen.qian
- * @date 2018/3/16
+ * @since 2018/3/16
  */
 public class CanalClientException extends RuntimeException {
     public CanalClientException() {

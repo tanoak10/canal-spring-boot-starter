@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  * use cache thread pool to handle the event
  *
  * @author chen.qian
- * @date 2018/3/16
+ * @since 2018/3/16
  */
 public class SimpleCanalClient extends AbstractCanalClient {
 

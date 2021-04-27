@@ -2,7 +2,7 @@ package io.github.tanoak10.starter.canal.client.transfer;
 
 /**
  * @author chen.qian
- * @date 2018/3/23
+ * @since 2018/3/23
  */
 public class MessageTransponders {
 

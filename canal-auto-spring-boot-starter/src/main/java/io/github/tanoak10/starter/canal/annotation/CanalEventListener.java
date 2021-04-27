@@ -10,7 +10,7 @@ import java.lang.annotation.*;
  * as a listener of the canal event
  *
  * @author chen.qian
- * @date 2018/3/19
+ * @since 2018/3/19
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

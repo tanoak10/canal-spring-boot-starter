@@ -8,7 +8,7 @@ import java.util.*;
 
 /**
  * @author chen.qian
- * @date 2018/3/16
+ * @since 2018/3/16
  */
 @Order(Ordered.HIGHEST_PRECEDENCE)
 @ConfigurationProperties(prefix = "canal.client")

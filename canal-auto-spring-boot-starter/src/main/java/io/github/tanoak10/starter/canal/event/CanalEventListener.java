@@ -4,7 +4,7 @@ import com.alibaba.otter.canal.protocol.CanalEntry;
 
 /**
  * @author chen.qian
- * @date 2018/3/19
+ * @since 2018/3/19
  */
 public interface CanalEventListener {
 

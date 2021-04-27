@@ -16,7 +16,7 @@ import javax.annotation.Resource;
 
 /**
  * @author chen.qian
- * @date 2018/3/19
+ * @since 2018/3/19
  */
 public class CanalClientConfiguration {
 

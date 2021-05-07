@@ -132,6 +132,31 @@
                     </execution>
                 </executions>
             </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.sonatype.plugins</groupId>-->
+<!--                <artifactId>nexus-staging-maven-plugin</artifactId>-->
+<!--                <version>1.6.7</version>-->
+<!--                <extensions>true</extensions>-->
+<!--                <configuration>-->
+<!--                    <serverId>ossrh</serverId>-->
+<!--                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>-->
+<!--                    <autoReleaseAfterClose>true</autoReleaseAfterClose>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-gpg-plugin</artifactId>-->
+<!--                <version>1.6</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>sign-artifacts</id>-->
+<!--                        <phase>verify</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>sign</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
         </plugins>
     </build>
     <licenses>
@@ -168,28 +193,6 @@
                 <jdk>[1.8,)</jdk>
             </activation>
             <!-- Disable doclint under JDK 8 -->
-            <reporting>
-                <plugins>
-                    <plugin>
-                        <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>${maven-javadoc-plugin.version}</version>
-                        <configuration>
-                            <additionalparam>-Xdoclint:none</additionalparam>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </reporting>
-            <build>
-                <plugins>
-                    <plugin>
-                        <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>${maven-javadoc-plugin.version}</version>
-                        <configuration>
-                            <additionalparam>-Xdoclint:none</additionalparam>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
         </profile>
         <!--        <profile>-->
         <!--            <id>release-sign-artifacts</id>-->
@@ -223,4 +226,10 @@
         <!--            </build>-->
         <!--        </profile>-->
     </profiles>
+    <scm>
+        <connection>scm:git:git@github.com:tanoak10/spring-boot-starter-canal.git</connection>
+        <developerConnection>scm:git:git@github.com:tanoak10/spring-boot-starter-canal.git</developerConnection>
+        <url>https://github.com/tanoak10/spring-boot-starter-canal/tree/dev</url>
+        <tag>dev</tag>
+    </scm>
 </project>
